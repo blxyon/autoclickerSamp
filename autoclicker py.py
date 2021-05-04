@@ -93,7 +93,7 @@ class ClickMouse(threading.Thread):
                 print(getLastCol())
                 print("timeLapse: ",time.time()-self.start_time)
                 print(getLast())
-                if(time.time()-self.start_time>=3600):
+                if(time.time()-self.start_time>=5400):
                     keyboard.press("t")
                     word="/usedrugs"
                     for l in word:
